@@ -7,20 +7,188 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		99F052841956F4C900FF6011 /* Pass_detailsIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99F052831956F4C900FF6011 /* Pass_detailsIcon@2x.png */; };
+		C10BF2F5196EB0CC00C6484E /* view_passes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C10BF2F4196EB0CC00C6484E /* view_passes@2x.png */; };
+		C10BF2FB196EBE6100C6484E /* Feed_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C10BF2FA196EBE6100C6484E /* Feed_back@2x.png */; };
+		C10BF2FF196EC82E00C6484E /* done@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C10BF2FE196EC82E00C6484E /* done@2x.png */; };
+		C118C5C31978F6B8001D9435 /* NotesViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C118C5C11978F6B8001D9435 /* NotesViewController_iPhone.m */; };
+		C118C5C41978F6B8001D9435 /* NotesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C118C5C21978F6B8001D9435 /* NotesViewController_iPhone.xib */; };
+		C118C5C61978F6F0001D9435 /* NotesViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = C118C5C51978F6F0001D9435 /* NotesViewController_iPhone5.xib */; };
+		C11C11351965218E00CAF2B9 /* NSDictionary+adminPasses.m in Sources */ = {isa = PBXBuildFile; fileRef = C11C11341965218E00CAF2B9 /* NSDictionary+adminPasses.m */; };
+		C11C113919652ECE00CAF2B9 /* AdminPassCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C11C113719652ECE00CAF2B9 /* AdminPassCustomCell.m */; };
+		C11C113A19652ECE00CAF2B9 /* AdminPassCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C11C113819652ECE00CAF2B9 /* AdminPassCustomCell.xib */; };
+		C11DA9BD197E2D9B00C3FC1F /* PayoutViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C11DA9BB197E2D9B00C3FC1F /* PayoutViewController_iPhone.m */; };
+		C11DA9BE197E2D9B00C3FC1F /* PayoutViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C11DA9BC197E2D9B00C3FC1F /* PayoutViewController_iPhone.xib */; };
+		C11DA9C0197E2DB300C3FC1F /* PayoutViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = C11DA9BF197E2DB300C3FC1F /* PayoutViewController_iPhone5.xib */; };
+		C11DA9C5197E2EF600C3FC1F /* sml_scree_pay_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C11DA9C3197E2EF600C3FC1F /* sml_scree_pay_info@2x.png */; };
+		C11DA9C7197E46D400C3FC1F /* contact_payout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C11DA9C6197E46D400C3FC1F /* contact_payout@2x.png */; };
+		C11F02C2196FAFE7000671F6 /* add_new_merchant@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C11F02C1196FAFE7000671F6 /* add_new_merchant@2x.png */; };
+		C1246D6B1952F43400207CF9 /* topInfoImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1246D6A1952F43400207CF9 /* topInfoImage@2x.png */; };
+		C1246D711952F8F400207CF9 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1246D701952F8F400207CF9 /* background@2x.png */; };
+		C1246D7D19530BCA00207CF9 /* disableDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1246D7B19530BCA00207CF9 /* disableDot@2x.png */; };
+		C1246D7E19530BCA00207CF9 /* enableDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1246D7C19530BCA00207CF9 /* enableDot@2x.png */; };
+		C1246D8519530CD100207CF9 /* email_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1246D8419530CD100207CF9 /* email_bg@2x.png */; };
+		C12BCD8719481F9D0076E443 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12BCD8619481F9D0076E443 /* ImageIO.framework */; };
+		C12BCD8E194824B00076E443 /* MerchantPassViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C12BCD8C194824B00076E443 /* MerchantPassViewController_iPhone.m */; };
+		C12BCD8F194824B00076E443 /* MerchantPassViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12BCD8D194824B00076E443 /* MerchantPassViewController_iPhone.xib */; };
+		C12BCD91194824D90076E443 /* MerchantPassViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12BCD90194824D90076E443 /* MerchantPassViewController_iPhone5.xib */; };
+		C12BE11219824CC200709351 /* CreateNewPassesView.m in Sources */ = {isa = PBXBuildFile; fileRef = C12BE10F19824CC200709351 /* CreateNewPassesView.m */; };
+		C12BE11319824CC200709351 /* CreateNewPassesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12BE11019824CC200709351 /* CreateNewPassesView.xib */; };
+		C12BE11419824CC200709351 /* CreateNewPassesView4.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12BE11119824CC200709351 /* CreateNewPassesView4.xib */; };
+		C12CE9DB1977D6D300DA5094 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C12CE9D91977D6D300DA5094 /* NSDataAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C137BD1B195AA48C00A94DCE /* account_bg_iPhone5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C137BD19195AA48C00A94DCE /* account_bg_iPhone5@2x.png */; };
+		C137BD1C195AA48C00A94DCE /* account_bg_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C137BD1A195AA48C00A94DCE /* account_bg_iPhone@2x.png */; };
+		C137BD1E195AA61F00A94DCE /* pass_shop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C137BD1D195AA61F00A94DCE /* pass_shop@2x.png */; };
+		C137BD35195AF00A00A94DCE /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C137BD34195AF00A00A94DCE /* libc++abi.dylib */; };
+		C137BD37195AF01B00A94DCE /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C137BD36195AF01B00A94DCE /* MessageUI.framework */; };
+		C137BD39195AF02200A94DCE /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C137BD38195AF02200A94DCE /* CoreAudio.framework */; };
+		C137BD3B195AF03500A94DCE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C137BD3A195AF03500A94DCE /* MobileCoreServices.framework */; };
+		C137BD3D195AF04F00A94DCE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C137BD3C195AF04F00A94DCE /* libxml2.dylib */; };
+		C137BD3F195AF05D00A94DCE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C137BD3E195AF05D00A94DCE /* CoreMedia.framework */; };
+		C137BD41195AF06A00A94DCE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C137BD40195AF06A00A94DCE /* AVFoundation.framework */; };
+		C137BD43195AF07600A94DCE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C137BD42195AF07600A94DCE /* Security.framework */; };
+		C137BD45195AF08300A94DCE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C137BD44195AF08300A94DCE /* QuartzCore.framework */; };
+		C137BD47195AF08A00A94DCE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C137BD46195AF08A00A94DCE /* OpenGLES.framework */; };
+		C137BD49195AF09600A94DCE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C137BD48195AF09600A94DCE /* AudioToolbox.framework */; };
+		C137BD4B195AF0A400A94DCE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C137BD4A195AF0A400A94DCE /* SystemConfiguration.framework */; };
+		C137BD4D195AF0B500A94DCE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C137BD4C195AF0B500A94DCE /* CoreLocation.framework */; };
+		C13D743B194AD9AC005D233C /* OverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13D7439194AD9AC005D233C /* OverlayViewController.m */; };
+		C13D743C194AD9AC005D233C /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C13D743A194AD9AC005D233C /* OverlayView.xib */; };
+		C142E2AB19405EAB0018480C /* FeedBackViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C142E2A919405EAB0018480C /* FeedBackViewController_iPhone.m */; };
+		C142E2AC19405EAB0018480C /* FeedBackViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C142E2AA19405EAB0018480C /* FeedBackViewController_iPhone.xib */; };
+		C142E2AE19405EE50018480C /* FeedBackViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = C142E2AD19405EE50018480C /* FeedBackViewController_iPhone5.xib */; };
+		C14781D019B88659004656C1 /* frame1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C14781CF19B88659004656C1 /* frame1@2x.png */; };
+		C14B861019EBFA1C00614E10 /* info_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C14B860F19EBFA1C00614E10 /* info_4@2x.png */; };
+		C14B861219EBFAA000614E10 /* info_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C14B861119EBFAA000614E10 /* info_5@2x.png */; };
+		C151DEF81959860700D724AD /* blue_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C151DEF71959860700D724AD /* blue_bg@2x.png */; };
+		C157FB581953FB42003029DF /* infoBackground_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C157FB571953FB42003029DF /* infoBackground_iPhone@2x.png */; };
+		C157FB5A1953FB4B003029DF /* infoBackground_iPhone5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C157FB591953FB4B003029DF /* infoBackground_iPhone5@2x.png */; };
+		C157FB60195405FF003029DF /* topHeader_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C157FB5F195405FF003029DF /* topHeader_bg@2x.png */; };
+		C157FB62195407B1003029DF /* backButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C157FB61195407B1003029DF /* backButton@2x.png */; };
+		C157FB651954102B003029DF /* signInBabckground_iPhone5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C157FB641954102B003029DF /* signInBabckground_iPhone5@2x.png */; };
+		C157FB7119541175003029DF /* Email_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C157FB7019541175003029DF /* Email_icon@2x.png */; };
+		C157FB7319541178003029DF /* Password_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C157FB7219541178003029DF /* Password_icon@2x.png */; };
+		C157FB75195411C5003029DF /* Input_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C157FB74195411C5003029DF /* Input_box@2x.png */; };
+		C15A657719385A5D002D7145 /* Brisko Sans Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C15A657519385A5D002D7145 /* Brisko Sans Bold.otf */; };
+		C15A657819385A5D002D7145 /* Brisko Sans Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C15A657619385A5D002D7145 /* Brisko Sans Bold Italic.otf */; };
+		C15A657D19387065002D7145 /* StyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C15A657C19387065002D7145 /* StyledPageControl.m */; };
+		C15A65911938A2FC002D7145 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A65901938A2FC002D7145 /* FacebookSDK.framework */; };
+		C15B9D8B197CF302007004B3 /* LocationViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C15B9D89197CF302007004B3 /* LocationViewController_iPhone.m */; };
+		C15B9D8C197CF302007004B3 /* LocationViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C15B9D8A197CF302007004B3 /* LocationViewController_iPhone.xib */; };
+		C15B9D8E197CF31A007004B3 /* LocationViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = C15B9D8D197CF31A007004B3 /* LocationViewController_iPhone5.xib */; };
+		C15B9D97197CF386007004B3 /* LocationDetailViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C15B9D95197CF386007004B3 /* LocationDetailViewController_iPhone.m */; };
+		C15B9D98197CF386007004B3 /* LocationDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C15B9D96197CF386007004B3 /* LocationDetailViewController_iPhone.xib */; };
+		C15B9D9A197CF3A0007004B3 /* LocationDetailViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = C15B9D99197CF3A0007004B3 /* LocationDetailViewController_iPhone5.xib */; };
+		C15B9D9E197CF4EA007004B3 /* LocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C15B9D9C197CF4EA007004B3 /* LocationCell.m */; };
+		C15B9D9F197CF4EA007004B3 /* LocationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C15B9D9D197CF4EA007004B3 /* LocationCell.xib */; };
+		C15B9DA1197D07A7007004B3 /* add_location2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15B9DA0197D07A7007004B3 /* add_location2@2x.png */; };
+		C15B9DAA197D54E7007004B3 /* white_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15B9DA9197D54E7007004B3 /* white_active@2x.png */; };
+		C15B9DAC197D54FC007004B3 /* pink_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15B9DAB197D54FC007004B3 /* pink_active@2x.png */; };
+		C15BFD0C193DBAE20042F4F1 /* InfoViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C15BFD0A193DBAE20042F4F1 /* InfoViewController_iPhone.m */; };
+		C15BFD0D193DBAE20042F4F1 /* InfoViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C15BFD0B193DBAE20042F4F1 /* InfoViewController_iPhone.xib */; };
+		C15BFD0F193DBB140042F4F1 /* InfoViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = C15BFD0E193DBB140042F4F1 /* InfoViewController_iPhone5.xib */; };
+		C15CE8B11988E0FD00669609 /* requestNewPass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C15CE8B01988E0FD00669609 /* requestNewPass@2x.png */; };
+		C1624A8C195BDE79009BEAB7 /* NSDictionary+userPasses.m in Sources */ = {isa = PBXBuildFile; fileRef = C1624A8B195BDE79009BEAB7 /* NSDictionary+userPasses.m */; };
+		C16473EF19EC0AB100AF6592 /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = C16473EA19EC0AB100AF6592 /* 29.png */; };
+		C16473F019EC0AB100AF6592 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = C16473EB19EC0AB100AF6592 /* 58.png */; };
+		C16473F119EC0AB100AF6592 /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = C16473EC19EC0AB100AF6592 /* 80.png */; };
+		C16473F219EC0AB100AF6592 /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = C16473ED19EC0AB100AF6592 /* 114.png */; };
+		C16473F319EC0AB100AF6592 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = C16473EE19EC0AB100AF6592 /* 120.png */; };
+		C16473F519EC0ABC00AF6592 /* Pass_icon_180.png in Resources */ = {isa = PBXBuildFile; fileRef = C16473F419EC0ABC00AF6592 /* Pass_icon_180.png */; };
+		C16D3930197FBD0300526F53 /* create_new_pass_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C16D392F197FBD0300526F53 /* create_new_pass_white@2x.png */; };
+		C17717031946F09B002D1864 /* SecondViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C17717011946F09B002D1864 /* SecondViewController_iPhone.m */; };
+		C17717041946F09B002D1864 /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17717021946F09B002D1864 /* SecondViewController_iPhone.xib */; };
+		C17717081946F646002D1864 /* PassShopViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C17717061946F646002D1864 /* PassShopViewController_iPhone.m */; };
+		C17717091946F646002D1864 /* PassShopViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17717071946F646002D1864 /* PassShopViewController_iPhone.xib */; };
+		C177170B1946F68B002D1864 /* PassShopViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = C177170A1946F68B002D1864 /* PassShopViewController_iPhone5.xib */; };
+		C177170F19471468002D1864 /* AllMerchantCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C177170D19471468002D1864 /* AllMerchantCustomCell.m */; };
+		C177171019471468002D1864 /* AllMerchantCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C177170E19471468002D1864 /* AllMerchantCustomCell.xib */; };
+		C177171319471C08002D1864 /* NSDictionary+merchantInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C177171219471C08002D1864 /* NSDictionary+merchantInfo.m */; };
+		C17A198B19B7518A0024D88E /* feedback_bg_iPhone5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C17A198A19B7518A0024D88E /* feedback_bg_iPhone5@2x.png */; };
+		C18BD77A193F433C009A3D25 /* UsePassViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C18BD778193F433C009A3D25 /* UsePassViewController_iPhone.m */; };
+		C18BD77B193F433C009A3D25 /* UsePassViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C18BD779193F433C009A3D25 /* UsePassViewController_iPhone.xib */; };
+		C18BD77D193F435B009A3D25 /* UsePassViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = C18BD77C193F435B009A3D25 /* UsePassViewController_iPhone5.xib */; };
+		C18BD787193F4D1F009A3D25 /* ShowPassCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C18BD785193F4D1F009A3D25 /* ShowPassCustomCell.m */; };
+		C18BD788193F4D1F009A3D25 /* ShowPassCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C18BD786193F4D1F009A3D25 /* ShowPassCustomCell.xib */; };
+		C18E0F19196A812500BEE72A /* view_bttn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C18E0F17196A812500BEE72A /* view_bttn@2x.png */; };
+		C18E0F1A196A812500BEE72A /* edit_bttn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C18E0F18196A812500BEE72A /* edit_bttn@2x.png */; };
+		C18E0F26196ABDB800BEE72A /* signInaccount@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C18E0F25196ABDB800BEE72A /* signInaccount@2x.png */; };
+		C18E0F36196AC8BE00BEE72A /* uncheck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C18E0F35196AC8BE00BEE72A /* uncheck@2x.png */; };
+		C18E0F38196AC8CB00BEE72A /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C18E0F37196AC8CB00BEE72A /* check@2x.png */; };
+		C1989013196D2B660063ADAF /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1989012196D2B660063ADAF /* delete@2x.png */; };
+		C198901A196D2D740063ADAF /* signIn_Button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1989016196D2D740063ADAF /* signIn_Button@2x.png */; };
+		C1989021196D6E740063ADAF /* Use_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1989020196D6E740063ADAF /* Use_btn@2x.png */; };
+		C19A244E197511920076DF39 /* darkOrange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A244D197511920076DF39 /* darkOrange@2x.png */; };
+		C19A2450197511A50076DF39 /* lightOrange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A244F197511A50076DF39 /* lightOrange@2x.png */; };
+		C19A24531975179E0076DF39 /* Double_lightOrange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A24511975179E0076DF39 /* Double_lightOrange@2x.png */; };
+		C19A24541975179E0076DF39 /* Double_darkOrange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A24521975179E0076DF39 /* Double_darkOrange@2x.png */; };
+		C19A6627195804420060143F /* fedback_active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A6620195804420060143F /* fedback_active@2x.png */; };
+		C19A6628195804420060143F /* feed_back_icon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A6621195804420060143F /* feed_back_icon1@2x.png */; };
+		C19A6629195804420060143F /* feed_back_icon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A6622195804420060143F /* feed_back_icon2@2x.png */; };
+		C19A662A195804420060143F /* feed_back_icon3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A6623195804420060143F /* feed_back_icon3@2x.png */; };
+		C19A662B195804420060143F /* feed_back_icon4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A6624195804420060143F /* feed_back_icon4@2x.png */; };
+		C19A662C195804420060143F /* feed_back_icon5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A6625195804420060143F /* feed_back_icon5@2x.png */; };
+		C19A662D195804420060143F /* feedback_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A6626195804420060143F /* feedback_blue@2x.png */; };
+		C19A662F1958094D0060143F /* feedback_divider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A662E1958094D0060143F /* feedback_divider@2x.png */; };
+		C19A663519580D2D0060143F /* submit_bttn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A663419580D2D0060143F /* submit_bttn@2x.png */; };
+		C19A6638195817190060143F /* feedback_bg_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C19A6636195817190060143F /* feedback_bg_iPhone@2x.png */; };
+		C1A6310119D1A2AC00A89CD8 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A6310019D1A2AB00A89CD8 /* SDWebImage.framework */; };
+		C1A7E7D61948714F00604AED /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A7E7D51948714F00604AED /* MapKit.framework */; };
+		C1A7E7DC19488B6400604AED /* NSDictionary+passesInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A7E7DB19488B6400604AED /* NSDictionary+passesInfo.m */; };
+		C1A9F592195D9A1600F69DE9 /* MyPassesViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C1A9F590195D9A1600F69DE9 /* MyPassesViewController_iPhone.m */; };
+		C1A9F593195D9A1600F69DE9 /* MyPassesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1A9F591195D9A1600F69DE9 /* MyPassesViewController_iPhone.xib */; };
+		C1A9F595195D9A3600F69DE9 /* MyPassesViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1A9F594195D9A3600F69DE9 /* MyPassesViewController_iPhone5.xib */; };
+		C1B050DB19BF20BC00061C06 /* payout_info_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B050DA19BF20BC00061C06 /* payout_info_bg@2x.png */; };
+		C1B2C1C41954405F007C60EB /* signInBabckground_iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1B2C1C31954405F007C60EB /* signInBabckground_iPhone@2x.png */; };
+		C1CD25B919AE017600967762 /* SignUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1CD25B819AE017600967762 /* SignUp@2x.png */; };
+		C1D236FD196BD80F0025C48E /* MerchantAccountViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D236FB196BD80F0025C48E /* MerchantAccountViewController_iPhone.m */; };
+		C1D236FE196BD80F0025C48E /* MerchantAccountViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D236FC196BD80F0025C48E /* MerchantAccountViewController_iPhone.xib */; };
+		C1D23700196BD83B0025C48E /* MerchantAccountViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D236FF196BD83B0025C48E /* MerchantAccountViewController_iPhone5.xib */; };
+		C1D23704196BD9160025C48E /* New_edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1D23701196BD9160025C48E /* New_edit@2x.png */; };
+		C1D23705196BD9160025C48E /* account_sml_screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1D23702196BD9160025C48E /* account_sml_screen@2x.png */; };
+		C1D23706196BD9160025C48E /* account_screen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1D23703196BD9160025C48E /* account_screen@2x.png */; };
+		C1D23708196BDCDF0025C48E /* save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1D23707196BDCDF0025C48E /* save@2x.png */; };
+		C1D2370C196C255A0025C48E /* edit_admin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1D2370B196C255A0025C48E /* edit_admin@2x.png */; };
+		C1D4FEE119419FA30050075E /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FED019419FA30050075E /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C1D4FEE219419FA30050075E /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FED219419FA30050075E /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C1D4FEE319419FA30050075E /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FED419419FA30050075E /* ASIDownloadCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C1D4FEE419419FA30050075E /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FED619419FA30050075E /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C1D4FEE519419FA30050075E /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FED819419FA30050075E /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C1D4FEE619419FA30050075E /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FEDC19419FA30050075E /* ASIInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C1D4FEE719419FA30050075E /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FEDE19419FA30050075E /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C1D4FEF619419FC90050075E /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FEEB19419FC90050075E /* NSObject+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C1D4FEF719419FC90050075E /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FEED19419FC90050075E /* NSString+SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C1D4FEF819419FC90050075E /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FEEF19419FC90050075E /* SBJSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C1D4FEF919419FC90050075E /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FEF119419FC90050075E /* SBJsonBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C1D4FEFA19419FC90050075E /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FEF319419FC90050075E /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C1D4FEFB19419FC90050075E /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FEF519419FC90050075E /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C1D4FF011941AA620050075E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FF001941AA620050075E /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C1D4FF041941AAC10050075E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D4FF031941AAC10050075E /* libz.dylib */; };
+		C1D4FF051941AD310050075E /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FECD19419FA30050075E /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C1D4FF081941AD880050075E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D64EFD1936F81B00EFE881 /* main.m */; };
+		C1D4FF0E1941B3910050075E /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4FF0D1941B3910050075E /* XMLReader.m */; };
 		C1D64EF21936F81B00EFE881 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D64EF11936F81B00EFE881 /* Foundation.framework */; };
 		C1D64EF41936F81B00EFE881 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D64EF31936F81B00EFE881 /* CoreGraphics.framework */; };
 		C1D64EF61936F81B00EFE881 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D64EF51936F81B00EFE881 /* UIKit.framework */; };
 		C1D64EFC1936F81B00EFE881 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1D64EFA1936F81B00EFE881 /* InfoPlist.strings */; };
-		C1D64EFE1936F81B00EFE881 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D64EFD1936F81B00EFE881 /* main.m */; };
 		C1D64F021936F81B00EFE881 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D64F011936F81B00EFE881 /* AppDelegate.m */; };
-		C1D64F051936F81B00EFE881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D64F031936F81B00EFE881 /* Main.storyboard */; };
-		C1D64F081936F81B00EFE881 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D64F071936F81B00EFE881 /* ViewController.m */; };
 		C1D64F0A1936F81B00EFE881 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D64F091936F81B00EFE881 /* Images.xcassets */; };
-		C1D64F111936F81B00EFE881 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D64F101936F81B00EFE881 /* XCTest.framework */; };
 		C1D64F121936F81B00EFE881 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D64EF11936F81B00EFE881 /* Foundation.framework */; };
 		C1D64F131936F81B00EFE881 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D64EF51936F81B00EFE881 /* UIKit.framework */; };
 		C1D64F1B1936F81B00EFE881 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1D64F191936F81B00EFE881 /* InfoPlist.strings */; };
 		C1D64F1D1936F81B00EFE881 /* ChoosePassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D64F1C1936F81B00EFE881 /* ChoosePassTests.m */; };
+		C1D64F2D1936FB9B00EFE881 /* GlobalInstances.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D64F2C1936FB9B00EFE881 /* GlobalInstances.m */; };
+		C1D64F311937023200EFE881 /* MainViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D64F2F1937023200EFE881 /* MainViewController_iPhone.m */; };
+		C1D64F321937023200EFE881 /* MainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D64F301937023200EFE881 /* MainViewController_iPhone.xib */; };
+		C1D64F341937024F00EFE881 /* MainViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D64F331937024F00EFE881 /* MainViewController_iPhone5.xib */; };
+		C1D64F38193722FF00EFE881 /* LoginViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D64F36193722FF00EFE881 /* LoginViewController_iPhone.m */; };
+		C1D64F39193722FF00EFE881 /* LoginViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D64F37193722FF00EFE881 /* LoginViewController_iPhone.xib */; };
+		C1D64F3B1937232200EFE881 /* LoginViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D64F3A1937232200EFE881 /* LoginViewController_iPhone5.xib */; };
+		C1DA518E19766F16001F3938 /* EditMerchantViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = C1DA518C19766F16001F3938 /* EditMerchantViewController_iPhone.m */; };
+		C1DA518F19766F16001F3938 /* EditMerchantViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1DA518D19766F16001F3938 /* EditMerchantViewController_iPhone.xib */; };
+		C1DA519119766F37001F3938 /* EditMerchantViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1DA519019766F36001F3938 /* EditMerchantViewController_iPhone5.xib */; };
+		C1DA51931976AC7B001F3938 /* save_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DA51921976AC7B001F3938 /* save_white@2x.png */; };
+		C1DA51951976ADFB001F3938 /* add_new_pass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1DA51941976ADFB001F3938 /* add_new_pass@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +202,211 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C1D64EEE1936F81B00EFE881 /* ChoosePass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChoosePass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99F052831956F4C900FF6011 /* Pass_detailsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pass_detailsIcon@2x.png"; sourceTree = "<group>"; };
+		C10BF2F4196EB0CC00C6484E /* view_passes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "view_passes@2x.png"; sourceTree = "<group>"; };
+		C10BF2FA196EBE6100C6484E /* Feed_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Feed_back@2x.png"; sourceTree = "<group>"; };
+		C10BF2FE196EC82E00C6484E /* done@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "done@2x.png"; sourceTree = "<group>"; };
+		C118C5C01978F6B8001D9435 /* NotesViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesViewController_iPhone.h; sourceTree = "<group>"; };
+		C118C5C11978F6B8001D9435 /* NotesViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesViewController_iPhone.m; sourceTree = "<group>"; };
+		C118C5C21978F6B8001D9435 /* NotesViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotesViewController_iPhone.xib; sourceTree = "<group>"; };
+		C118C5C51978F6F0001D9435 /* NotesViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotesViewController_iPhone5.xib; sourceTree = "<group>"; };
+		C11C11331965218E00CAF2B9 /* NSDictionary+adminPasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+adminPasses.h"; sourceTree = "<group>"; };
+		C11C11341965218E00CAF2B9 /* NSDictionary+adminPasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+adminPasses.m"; sourceTree = "<group>"; };
+		C11C113619652ECE00CAF2B9 /* AdminPassCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminPassCustomCell.h; sourceTree = "<group>"; };
+		C11C113719652ECE00CAF2B9 /* AdminPassCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminPassCustomCell.m; sourceTree = "<group>"; };
+		C11C113819652ECE00CAF2B9 /* AdminPassCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdminPassCustomCell.xib; sourceTree = "<group>"; };
+		C11DA9BA197E2D9B00C3FC1F /* PayoutViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayoutViewController_iPhone.h; sourceTree = "<group>"; };
+		C11DA9BB197E2D9B00C3FC1F /* PayoutViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayoutViewController_iPhone.m; sourceTree = "<group>"; };
+		C11DA9BC197E2D9B00C3FC1F /* PayoutViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayoutViewController_iPhone.xib; sourceTree = "<group>"; };
+		C11DA9BF197E2DB300C3FC1F /* PayoutViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PayoutViewController_iPhone5.xib; sourceTree = "<group>"; };
+		C11DA9C3197E2EF600C3FC1F /* sml_scree_pay_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sml_scree_pay_info@2x.png"; sourceTree = "<group>"; };
+		C11DA9C6197E46D400C3FC1F /* contact_payout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contact_payout@2x.png"; sourceTree = "<group>"; };
+		C11F02C1196FAFE7000671F6 /* add_new_merchant@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_new_merchant@2x.png"; sourceTree = "<group>"; };
+		C1246D6A1952F43400207CF9 /* topInfoImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topInfoImage@2x.png"; sourceTree = "<group>"; };
+		C1246D701952F8F400207CF9 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		C1246D7B19530BCA00207CF9 /* disableDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disableDot@2x.png"; sourceTree = "<group>"; };
+		C1246D7C19530BCA00207CF9 /* enableDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "enableDot@2x.png"; sourceTree = "<group>"; };
+		C1246D8419530CD100207CF9 /* email_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_bg@2x.png"; sourceTree = "<group>"; };
+		C12BCD8619481F9D0076E443 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		C12BCD8B194824B00076E443 /* MerchantPassViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchantPassViewController_iPhone.h; sourceTree = "<group>"; };
+		C12BCD8C194824B00076E443 /* MerchantPassViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerchantPassViewController_iPhone.m; sourceTree = "<group>"; };
+		C12BCD8D194824B00076E443 /* MerchantPassViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MerchantPassViewController_iPhone.xib; sourceTree = "<group>"; };
+		C12BCD90194824D90076E443 /* MerchantPassViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MerchantPassViewController_iPhone5.xib; sourceTree = "<group>"; };
+		C12BE10E19824CC200709351 /* CreateNewPassesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateNewPassesView.h; sourceTree = "<group>"; };
+		C12BE10F19824CC200709351 /* CreateNewPassesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateNewPassesView.m; sourceTree = "<group>"; };
+		C12BE11019824CC200709351 /* CreateNewPassesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateNewPassesView.xib; sourceTree = "<group>"; };
+		C12BE11119824CC200709351 /* CreateNewPassesView4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateNewPassesView4.xib; sourceTree = "<group>"; };
+		C12CE9D91977D6D300DA5094 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		C12CE9DA1977D6D300DA5094 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		C137BD19195AA48C00A94DCE /* account_bg_iPhone5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account_bg_iPhone5@2x.png"; sourceTree = "<group>"; };
+		C137BD1A195AA48C00A94DCE /* account_bg_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account_bg_iPhone@2x.png"; sourceTree = "<group>"; };
+		C137BD1D195AA61F00A94DCE /* pass_shop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pass_shop@2x.png"; sourceTree = "<group>"; };
+		C137BD34195AF00A00A94DCE /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
+		C137BD36195AF01B00A94DCE /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C137BD38195AF02200A94DCE /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		C137BD3A195AF03500A94DCE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C137BD3C195AF04F00A94DCE /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		C137BD3E195AF05D00A94DCE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C137BD40195AF06A00A94DCE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C137BD42195AF07600A94DCE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C137BD44195AF08300A94DCE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C137BD46195AF08A00A94DCE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C137BD48195AF09600A94DCE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C137BD4A195AF0A400A94DCE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C137BD4C195AF0B500A94DCE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C13D7438194AD9AC005D233C /* OverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayViewController.h; sourceTree = "<group>"; };
+		C13D7439194AD9AC005D233C /* OverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayViewController.m; sourceTree = "<group>"; };
+		C13D743A194AD9AC005D233C /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		C142E2A819405EAB0018480C /* FeedBackViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBackViewController_iPhone.h; sourceTree = "<group>"; };
+		C142E2A919405EAB0018480C /* FeedBackViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBackViewController_iPhone.m; sourceTree = "<group>"; };
+		C142E2AA19405EAB0018480C /* FeedBackViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedBackViewController_iPhone.xib; sourceTree = "<group>"; };
+		C142E2AD19405EE50018480C /* FeedBackViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedBackViewController_iPhone5.xib; sourceTree = "<group>"; };
+		C14781CF19B88659004656C1 /* frame1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame1@2x.png"; sourceTree = "<group>"; };
+		C14B860F19EBFA1C00614E10 /* info_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info_4@2x.png"; sourceTree = "<group>"; };
+		C14B861119EBFAA000614E10 /* info_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info_5@2x.png"; sourceTree = "<group>"; };
+		C151DEF71959860700D724AD /* blue_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue_bg@2x.png"; sourceTree = "<group>"; };
+		C157FB571953FB42003029DF /* infoBackground_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infoBackground_iPhone@2x.png"; sourceTree = "<group>"; };
+		C157FB591953FB4B003029DF /* infoBackground_iPhone5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infoBackground_iPhone5@2x.png"; sourceTree = "<group>"; };
+		C157FB5F195405FF003029DF /* topHeader_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topHeader_bg@2x.png"; sourceTree = "<group>"; };
+		C157FB61195407B1003029DF /* backButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backButton@2x.png"; sourceTree = "<group>"; };
+		C157FB641954102B003029DF /* signInBabckground_iPhone5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signInBabckground_iPhone5@2x.png"; sourceTree = "<group>"; };
+		C157FB7019541175003029DF /* Email_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Email_icon@2x.png"; sourceTree = "<group>"; };
+		C157FB7219541178003029DF /* Password_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Password_icon@2x.png"; sourceTree = "<group>"; };
+		C157FB74195411C5003029DF /* Input_box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Input_box@2x.png"; sourceTree = "<group>"; };
+		C15A657519385A5D002D7145 /* Brisko Sans Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brisko Sans Bold.otf"; sourceTree = "<group>"; };
+		C15A657619385A5D002D7145 /* Brisko Sans Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brisko Sans Bold Italic.otf"; sourceTree = "<group>"; };
+		C15A657B19387065002D7145 /* StyledPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyledPageControl.h; sourceTree = "<group>"; };
+		C15A657C19387065002D7145 /* StyledPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyledPageControl.m; sourceTree = "<group>"; };
+		C15A65901938A2FC002D7145 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		C15B9D88197CF302007004B3 /* LocationViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController_iPhone.h; sourceTree = "<group>"; };
+		C15B9D89197CF302007004B3 /* LocationViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController_iPhone.m; sourceTree = "<group>"; };
+		C15B9D8A197CF302007004B3 /* LocationViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationViewController_iPhone.xib; sourceTree = "<group>"; };
+		C15B9D8D197CF31A007004B3 /* LocationViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationViewController_iPhone5.xib; sourceTree = "<group>"; };
+		C15B9D94197CF386007004B3 /* LocationDetailViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetailViewController_iPhone.h; sourceTree = "<group>"; };
+		C15B9D95197CF386007004B3 /* LocationDetailViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetailViewController_iPhone.m; sourceTree = "<group>"; };
+		C15B9D96197CF386007004B3 /* LocationDetailViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationDetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		C15B9D99197CF3A0007004B3 /* LocationDetailViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationDetailViewController_iPhone5.xib; sourceTree = "<group>"; };
+		C15B9D9B197CF4EA007004B3 /* LocationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationCell.h; sourceTree = "<group>"; };
+		C15B9D9C197CF4EA007004B3 /* LocationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationCell.m; sourceTree = "<group>"; };
+		C15B9D9D197CF4EA007004B3 /* LocationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationCell.xib; sourceTree = "<group>"; };
+		C15B9DA0197D07A7007004B3 /* add_location2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_location2@2x.png"; sourceTree = "<group>"; };
+		C15B9DA9197D54E7007004B3 /* white_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white_active@2x.png"; sourceTree = "<group>"; };
+		C15B9DAB197D54FC007004B3 /* pink_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pink_active@2x.png"; sourceTree = "<group>"; };
+		C15BFD09193DBAE20042F4F1 /* InfoViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController_iPhone.h; sourceTree = "<group>"; };
+		C15BFD0A193DBAE20042F4F1 /* InfoViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController_iPhone.m; sourceTree = "<group>"; };
+		C15BFD0B193DBAE20042F4F1 /* InfoViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController_iPhone.xib; sourceTree = "<group>"; };
+		C15BFD0E193DBB140042F4F1 /* InfoViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController_iPhone5.xib; sourceTree = "<group>"; };
+		C15CE8B01988E0FD00669609 /* requestNewPass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "requestNewPass@2x.png"; sourceTree = "<group>"; };
+		C1624A8A195BDE79009BEAB7 /* NSDictionary+userPasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+userPasses.h"; sourceTree = "<group>"; };
+		C1624A8B195BDE79009BEAB7 /* NSDictionary+userPasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+userPasses.m"; sourceTree = "<group>"; };
+		C16473EA19EC0AB100AF6592 /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
+		C16473EB19EC0AB100AF6592 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		C16473EC19EC0AB100AF6592 /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		C16473ED19EC0AB100AF6592 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
+		C16473EE19EC0AB100AF6592 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		C16473F419EC0ABC00AF6592 /* Pass_icon_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pass_icon_180.png; sourceTree = "<group>"; };
+		C16D392F197FBD0300526F53 /* create_new_pass_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "create_new_pass_white@2x.png"; sourceTree = "<group>"; };
+		C17717001946F09B002D1864 /* SecondViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController_iPhone.h; sourceTree = "<group>"; };
+		C17717011946F09B002D1864 /* SecondViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController_iPhone.m; sourceTree = "<group>"; };
+		C17717021946F09B002D1864 /* SecondViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		C17717051946F646002D1864 /* PassShopViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassShopViewController_iPhone.h; sourceTree = "<group>"; };
+		C17717061946F646002D1864 /* PassShopViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassShopViewController_iPhone.m; sourceTree = "<group>"; };
+		C17717071946F646002D1864 /* PassShopViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassShopViewController_iPhone.xib; sourceTree = "<group>"; };
+		C177170A1946F68B002D1864 /* PassShopViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassShopViewController_iPhone5.xib; sourceTree = "<group>"; };
+		C177170C19471468002D1864 /* AllMerchantCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllMerchantCustomCell.h; sourceTree = "<group>"; };
+		C177170D19471468002D1864 /* AllMerchantCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllMerchantCustomCell.m; sourceTree = "<group>"; };
+		C177170E19471468002D1864 /* AllMerchantCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AllMerchantCustomCell.xib; sourceTree = "<group>"; };
+		C177171119471C08002D1864 /* NSDictionary+merchantInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+merchantInfo.h"; sourceTree = "<group>"; };
+		C177171219471C08002D1864 /* NSDictionary+merchantInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+merchantInfo.m"; sourceTree = "<group>"; };
+		C17A198A19B7518A0024D88E /* feedback_bg_iPhone5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feedback_bg_iPhone5@2x.png"; sourceTree = "<group>"; };
+		C18BD777193F433C009A3D25 /* UsePassViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsePassViewController_iPhone.h; sourceTree = "<group>"; };
+		C18BD778193F433C009A3D25 /* UsePassViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsePassViewController_iPhone.m; sourceTree = "<group>"; };
+		C18BD779193F433C009A3D25 /* UsePassViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsePassViewController_iPhone.xib; sourceTree = "<group>"; };
+		C18BD77C193F435B009A3D25 /* UsePassViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsePassViewController_iPhone5.xib; sourceTree = "<group>"; };
+		C18BD784193F4D1F009A3D25 /* ShowPassCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowPassCustomCell.h; sourceTree = "<group>"; };
+		C18BD785193F4D1F009A3D25 /* ShowPassCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPassCustomCell.m; sourceTree = "<group>"; };
+		C18BD786193F4D1F009A3D25 /* ShowPassCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowPassCustomCell.xib; sourceTree = "<group>"; };
+		C18E0F17196A812500BEE72A /* view_bttn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "view_bttn@2x.png"; sourceTree = "<group>"; };
+		C18E0F18196A812500BEE72A /* edit_bttn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit_bttn@2x.png"; sourceTree = "<group>"; };
+		C18E0F25196ABDB800BEE72A /* signInaccount@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signInaccount@2x.png"; sourceTree = "<group>"; };
+		C18E0F35196AC8BE00BEE72A /* uncheck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uncheck@2x.png"; sourceTree = "<group>"; };
+		C18E0F37196AC8CB00BEE72A /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		C1989012196D2B660063ADAF /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete@2x.png"; sourceTree = "<group>"; };
+		C1989016196D2D740063ADAF /* signIn_Button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signIn_Button@2x.png"; sourceTree = "<group>"; };
+		C1989020196D6E740063ADAF /* Use_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Use_btn@2x.png"; sourceTree = "<group>"; };
+		C19A244D197511920076DF39 /* darkOrange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "darkOrange@2x.png"; sourceTree = "<group>"; };
+		C19A244F197511A50076DF39 /* lightOrange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lightOrange@2x.png"; sourceTree = "<group>"; };
+		C19A24511975179E0076DF39 /* Double_lightOrange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Double_lightOrange@2x.png"; sourceTree = "<group>"; };
+		C19A24521975179E0076DF39 /* Double_darkOrange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Double_darkOrange@2x.png"; sourceTree = "<group>"; };
+		C19A6620195804420060143F /* fedback_active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fedback_active@2x.png"; sourceTree = "<group>"; };
+		C19A6621195804420060143F /* feed_back_icon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed_back_icon1@2x.png"; sourceTree = "<group>"; };
+		C19A6622195804420060143F /* feed_back_icon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed_back_icon2@2x.png"; sourceTree = "<group>"; };
+		C19A6623195804420060143F /* feed_back_icon3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed_back_icon3@2x.png"; sourceTree = "<group>"; };
+		C19A6624195804420060143F /* feed_back_icon4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed_back_icon4@2x.png"; sourceTree = "<group>"; };
+		C19A6625195804420060143F /* feed_back_icon5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed_back_icon5@2x.png"; sourceTree = "<group>"; };
+		C19A6626195804420060143F /* feedback_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feedback_blue@2x.png"; sourceTree = "<group>"; };
+		C19A662E1958094D0060143F /* feedback_divider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feedback_divider@2x.png"; sourceTree = "<group>"; };
+		C19A663419580D2D0060143F /* submit_bttn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "submit_bttn@2x.png"; sourceTree = "<group>"; };
+		C19A6636195817190060143F /* feedback_bg_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feedback_bg_iPhone@2x.png"; sourceTree = "<group>"; };
+		C1A6310019D1A2AB00A89CD8 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
+		C1A7E7D51948714F00604AED /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C1A7E7DA19488B6400604AED /* NSDictionary+passesInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+passesInfo.h"; sourceTree = "<group>"; };
+		C1A7E7DB19488B6400604AED /* NSDictionary+passesInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+passesInfo.m"; sourceTree = "<group>"; };
+		C1A9F58F195D9A1600F69DE9 /* MyPassesViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPassesViewController_iPhone.h; sourceTree = "<group>"; };
+		C1A9F590195D9A1600F69DE9 /* MyPassesViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPassesViewController_iPhone.m; sourceTree = "<group>"; };
+		C1A9F591195D9A1600F69DE9 /* MyPassesViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyPassesViewController_iPhone.xib; sourceTree = "<group>"; };
+		C1A9F594195D9A3600F69DE9 /* MyPassesViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyPassesViewController_iPhone5.xib; sourceTree = "<group>"; };
+		C1B050DA19BF20BC00061C06 /* payout_info_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "payout_info_bg@2x.png"; sourceTree = "<group>"; };
+		C1B2C1C31954405F007C60EB /* signInBabckground_iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signInBabckground_iPhone@2x.png"; sourceTree = "<group>"; };
+		C1CD25B819AE017600967762 /* SignUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SignUp@2x.png"; sourceTree = "<group>"; };
+		C1D236FA196BD80F0025C48E /* MerchantAccountViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MerchantAccountViewController_iPhone.h; sourceTree = "<group>"; };
+		C1D236FB196BD80F0025C48E /* MerchantAccountViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MerchantAccountViewController_iPhone.m; sourceTree = "<group>"; };
+		C1D236FC196BD80F0025C48E /* MerchantAccountViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MerchantAccountViewController_iPhone.xib; sourceTree = "<group>"; };
+		C1D236FF196BD83B0025C48E /* MerchantAccountViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MerchantAccountViewController_iPhone5.xib; sourceTree = "<group>"; };
+		C1D23701196BD9160025C48E /* New_edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "New_edit@2x.png"; sourceTree = "<group>"; };
+		C1D23702196BD9160025C48E /* account_sml_screen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account_sml_screen@2x.png"; sourceTree = "<group>"; };
+		C1D23703196BD9160025C48E /* account_screen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account_screen@2x.png"; sourceTree = "<group>"; };
+		C1D23707196BDCDF0025C48E /* save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save@2x.png"; sourceTree = "<group>"; };
+		C1D2370B196C255A0025C48E /* edit_admin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit_admin@2x.png"; sourceTree = "<group>"; };
+		C1D4FECC19419FA30050075E /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		C1D4FECD19419FA30050075E /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		C1D4FECE19419FA30050075E /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		C1D4FECF19419FA30050075E /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		C1D4FED019419FA30050075E /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		C1D4FED119419FA30050075E /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		C1D4FED219419FA30050075E /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		C1D4FED319419FA30050075E /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		C1D4FED419419FA30050075E /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		C1D4FED519419FA30050075E /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		C1D4FED619419FA30050075E /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		C1D4FED719419FA30050075E /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		C1D4FED819419FA30050075E /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		C1D4FED919419FA30050075E /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		C1D4FEDA19419FA30050075E /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		C1D4FEDB19419FA30050075E /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		C1D4FEDC19419FA30050075E /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		C1D4FEDD19419FA30050075E /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		C1D4FEDE19419FA30050075E /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		C1D4FEDF19419FA30050075E /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		C1D4FEE919419FC90050075E /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		C1D4FEEA19419FC90050075E /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		C1D4FEEB19419FC90050075E /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		C1D4FEEC19419FC90050075E /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		C1D4FEED19419FC90050075E /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		C1D4FEEE19419FC90050075E /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		C1D4FEEF19419FC90050075E /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		C1D4FEF019419FC90050075E /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		C1D4FEF119419FC90050075E /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		C1D4FEF219419FC90050075E /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		C1D4FEF319419FC90050075E /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		C1D4FEF419419FC90050075E /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		C1D4FEF519419FC90050075E /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		C1D4FEFF1941AA620050075E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C1D4FF001941AA620050075E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C1D4FF031941AAC10050075E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C1D4FF0C1941B3910050075E /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		C1D4FF0D1941B3910050075E /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		C1D64EEE1936F81B00EFE881 /* Merchant Section.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Merchant Section.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D64EF11936F81B00EFE881 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C1D64EF31936F81B00EFE881 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C1D64EF51936F81B00EFE881 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -44,15 +416,27 @@
 		C1D64EFF1936F81B00EFE881 /* ChoosePass-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChoosePass-Prefix.pch"; sourceTree = "<group>"; };
 		C1D64F001936F81B00EFE881 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C1D64F011936F81B00EFE881 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C1D64F041936F81B00EFE881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C1D64F061936F81B00EFE881 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C1D64F071936F81B00EFE881 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C1D64F091936F81B00EFE881 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C1D64F0F1936F81B00EFE881 /* ChoosePassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoosePassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1D64F101936F81B00EFE881 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C1D64F181936F81B00EFE881 /* ChoosePassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChoosePassTests-Info.plist"; sourceTree = "<group>"; };
 		C1D64F1A1936F81B00EFE881 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1D64F1C1936F81B00EFE881 /* ChoosePassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChoosePassTests.m; sourceTree = "<group>"; };
+		C1D64F2B1936FB9B00EFE881 /* GlobalInstances.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalInstances.h; sourceTree = "<group>"; };
+		C1D64F2C1936FB9B00EFE881 /* GlobalInstances.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalInstances.m; sourceTree = "<group>"; };
+		C1D64F2E1937023200EFE881 /* MainViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController_iPhone.h; sourceTree = "<group>"; };
+		C1D64F2F1937023200EFE881 /* MainViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController_iPhone.m; sourceTree = "<group>"; };
+		C1D64F301937023200EFE881 /* MainViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController_iPhone.xib; sourceTree = "<group>"; };
+		C1D64F331937024F00EFE881 /* MainViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController_iPhone5.xib; sourceTree = "<group>"; };
+		C1D64F35193722FF00EFE881 /* LoginViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController_iPhone.h; sourceTree = "<group>"; };
+		C1D64F36193722FF00EFE881 /* LoginViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController_iPhone.m; sourceTree = "<group>"; };
+		C1D64F37193722FF00EFE881 /* LoginViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController_iPhone.xib; sourceTree = "<group>"; };
+		C1D64F3A1937232200EFE881 /* LoginViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController_iPhone5.xib; sourceTree = "<group>"; };
+		C1DA518B19766F16001F3938 /* EditMerchantViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditMerchantViewController_iPhone.h; sourceTree = "<group>"; };
+		C1DA518C19766F16001F3938 /* EditMerchantViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditMerchantViewController_iPhone.m; sourceTree = "<group>"; };
+		C1DA518D19766F16001F3938 /* EditMerchantViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditMerchantViewController_iPhone.xib; sourceTree = "<group>"; };
+		C1DA519019766F36001F3938 /* EditMerchantViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditMerchantViewController_iPhone5.xib; sourceTree = "<group>"; };
+		C1DA51921976AC7B001F3938 /* save_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save_white@2x.png"; sourceTree = "<group>"; };
+		C1DA51941976ADFB001F3938 /* add_new_pass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_new_pass@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +444,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C137BD4D195AF0B500A94DCE /* CoreLocation.framework in Frameworks */,
+				C137BD4B195AF0A400A94DCE /* SystemConfiguration.framework in Frameworks */,
+				C137BD49195AF09600A94DCE /* AudioToolbox.framework in Frameworks */,
+				C137BD47195AF08A00A94DCE /* OpenGLES.framework in Frameworks */,
+				C1A6310119D1A2AC00A89CD8 /* SDWebImage.framework in Frameworks */,
+				C137BD45195AF08300A94DCE /* QuartzCore.framework in Frameworks */,
+				C137BD43195AF07600A94DCE /* Security.framework in Frameworks */,
+				C137BD41195AF06A00A94DCE /* AVFoundation.framework in Frameworks */,
+				C137BD3F195AF05D00A94DCE /* CoreMedia.framework in Frameworks */,
+				C137BD3D195AF04F00A94DCE /* libxml2.dylib in Frameworks */,
+				C137BD3B195AF03500A94DCE /* MobileCoreServices.framework in Frameworks */,
+				C137BD39195AF02200A94DCE /* CoreAudio.framework in Frameworks */,
+				C137BD37195AF01B00A94DCE /* MessageUI.framework in Frameworks */,
+				C137BD35195AF00A00A94DCE /* libc++abi.dylib in Frameworks */,
+				C1A7E7D61948714F00604AED /* MapKit.framework in Frameworks */,
+				C12BCD8719481F9D0076E443 /* ImageIO.framework in Frameworks */,
+				C1D4FF041941AAC10050075E /* libz.dylib in Frameworks */,
 				C1D64EF41936F81B00EFE881 /* CoreGraphics.framework in Frameworks */,
+				C15A65911938A2FC002D7145 /* FacebookSDK.framework in Frameworks */,
 				C1D64EF61936F81B00EFE881 /* UIKit.framework in Frameworks */,
 				C1D64EF21936F81B00EFE881 /* Foundation.framework in Frameworks */,
 			);
@@ -70,7 +472,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1D64F111936F81B00EFE881 /* XCTest.framework in Frameworks */,
 				C1D64F131936F81B00EFE881 /* UIKit.framework in Frameworks */,
 				C1D64F121936F81B00EFE881 /* Foundation.framework in Frameworks */,
 			);
@@ -79,9 +480,356 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99F052801956EFE200FF6011 /* PassDetail */ = {
+			isa = PBXGroup;
+			children = (
+				C1D2370B196C255A0025C48E /* edit_admin@2x.png */,
+				C15CE8B01988E0FD00669609 /* requestNewPass@2x.png */,
+				C1989012196D2B660063ADAF /* delete@2x.png */,
+				99F052831956F4C900FF6011 /* Pass_detailsIcon@2x.png */,
+			);
+			name = PassDetail;
+			sourceTree = "<group>";
+		};
+		C11DA9B9197E2D7200C3FC1F /* Payout */ = {
+			isa = PBXGroup;
+			children = (
+				C11DA9BA197E2D9B00C3FC1F /* PayoutViewController_iPhone.h */,
+				C11DA9BB197E2D9B00C3FC1F /* PayoutViewController_iPhone.m */,
+				C11DA9BC197E2D9B00C3FC1F /* PayoutViewController_iPhone.xib */,
+				C11DA9BF197E2DB300C3FC1F /* PayoutViewController_iPhone5.xib */,
+			);
+			name = Payout;
+			sourceTree = "<group>";
+		};
+		C11DA9C1197E2EEB00C3FC1F /* Payout Design */ = {
+			isa = PBXGroup;
+			children = (
+				C11DA9C6197E46D400C3FC1F /* contact_payout@2x.png */,
+				C1B050DA19BF20BC00061C06 /* payout_info_bg@2x.png */,
+				C11DA9C3197E2EF600C3FC1F /* sml_scree_pay_info@2x.png */,
+			);
+			name = "Payout Design";
+			sourceTree = "<group>";
+		};
+		C1246D651952C72B00207CF9 /* AppImages */ = {
+			isa = PBXGroup;
+			children = (
+				C1246D701952F8F400207CF9 /* background@2x.png */,
+				C157FB61195407B1003029DF /* backButton@2x.png */,
+				C157FB5F195405FF003029DF /* topHeader_bg@2x.png */,
+			);
+			name = AppImages;
+			sourceTree = "<group>";
+		};
+		C1246D721952FE3700207CF9 /* Info Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C157FB571953FB42003029DF /* infoBackground_iPhone@2x.png */,
+				C157FB591953FB4B003029DF /* infoBackground_iPhone5@2x.png */,
+				C1246D7B19530BCA00207CF9 /* disableDot@2x.png */,
+				C1246D7C19530BCA00207CF9 /* enableDot@2x.png */,
+				C1CD25B819AE017600967762 /* SignUp@2x.png */,
+				C1246D6A1952F43400207CF9 /* topInfoImage@2x.png */,
+			);
+			name = "Info Screen";
+			sourceTree = "<group>";
+		};
+		C1246D7F19530C8C00207CF9 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C1989016196D2D740063ADAF /* signIn_Button@2x.png */,
+				C18E0F25196ABDB800BEE72A /* signInaccount@2x.png */,
+				C157FB641954102B003029DF /* signInBabckground_iPhone5@2x.png */,
+				C1B2C1C31954405F007C60EB /* signInBabckground_iPhone@2x.png */,
+				C157FB74195411C5003029DF /* Input_box@2x.png */,
+				C157FB7219541178003029DF /* Password_icon@2x.png */,
+				C157FB7019541175003029DF /* Email_icon@2x.png */,
+				C18E0F35196AC8BE00BEE72A /* uncheck@2x.png */,
+				C18E0F37196AC8CB00BEE72A /* check@2x.png */,
+				C1246D8419530CD100207CF9 /* email_bg@2x.png */,
+			);
+			name = LoginScreen;
+			sourceTree = "<group>";
+		};
+		C137BD1F195AAB9700A94DCE /* Account Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C1D23707196BDCDF0025C48E /* save@2x.png */,
+				C137BD19195AA48C00A94DCE /* account_bg_iPhone5@2x.png */,
+				C18E0F17196A812500BEE72A /* view_bttn@2x.png */,
+				C1DA51921976AC7B001F3938 /* save_white@2x.png */,
+				C18E0F18196A812500BEE72A /* edit_bttn@2x.png */,
+				C137BD1A195AA48C00A94DCE /* account_bg_iPhone@2x.png */,
+				C10BF2FA196EBE6100C6484E /* Feed_back@2x.png */,
+			);
+			name = "Account Screen";
+			sourceTree = "<group>";
+		};
+		C142E2A219405B670018480C /* FirstTab */ = {
+			isa = PBXGroup;
+			children = (
+				C1A9F58F195D9A1600F69DE9 /* MyPassesViewController_iPhone.h */,
+				C1A9F590195D9A1600F69DE9 /* MyPassesViewController_iPhone.m */,
+				C1A9F591195D9A1600F69DE9 /* MyPassesViewController_iPhone.xib */,
+				C1A9F594195D9A3600F69DE9 /* MyPassesViewController_iPhone5.xib */,
+				C142E2A819405EAB0018480C /* FeedBackViewController_iPhone.h */,
+				C142E2A919405EAB0018480C /* FeedBackViewController_iPhone.m */,
+				C142E2AA19405EAB0018480C /* FeedBackViewController_iPhone.xib */,
+				C142E2AD19405EE50018480C /* FeedBackViewController_iPhone5.xib */,
+			);
+			name = FirstTab;
+			sourceTree = "<group>";
+		};
+		C142E2A319405B710018480C /* SecondTab */ = {
+			isa = PBXGroup;
+			children = (
+				C17717001946F09B002D1864 /* SecondViewController_iPhone.h */,
+				C17717011946F09B002D1864 /* SecondViewController_iPhone.m */,
+				C17717021946F09B002D1864 /* SecondViewController_iPhone.xib */,
+				C1D236FA196BD80F0025C48E /* MerchantAccountViewController_iPhone.h */,
+				C1D236FB196BD80F0025C48E /* MerchantAccountViewController_iPhone.m */,
+				C1D236FC196BD80F0025C48E /* MerchantAccountViewController_iPhone.xib */,
+				C1D236FF196BD83B0025C48E /* MerchantAccountViewController_iPhone5.xib */,
+				C1DA518B19766F16001F3938 /* EditMerchantViewController_iPhone.h */,
+				C1DA518C19766F16001F3938 /* EditMerchantViewController_iPhone.m */,
+				C1DA518D19766F16001F3938 /* EditMerchantViewController_iPhone.xib */,
+				C1DA519019766F36001F3938 /* EditMerchantViewController_iPhone5.xib */,
+				C11DA9B9197E2D7200C3FC1F /* Payout */,
+				C15B9D87197CF2E5007004B3 /* Locations */,
+				C118C5C01978F6B8001D9435 /* NotesViewController_iPhone.h */,
+				C118C5C11978F6B8001D9435 /* NotesViewController_iPhone.m */,
+				C118C5C21978F6B8001D9435 /* NotesViewController_iPhone.xib */,
+				C118C5C51978F6F0001D9435 /* NotesViewController_iPhone5.xib */,
+				C18BD777193F433C009A3D25 /* UsePassViewController_iPhone.h */,
+				C18BD778193F433C009A3D25 /* UsePassViewController_iPhone.m */,
+				C18BD779193F433C009A3D25 /* UsePassViewController_iPhone.xib */,
+				C18BD77C193F435B009A3D25 /* UsePassViewController_iPhone5.xib */,
+				C17717051946F646002D1864 /* PassShopViewController_iPhone.h */,
+				C17717061946F646002D1864 /* PassShopViewController_iPhone.m */,
+				C17717071946F646002D1864 /* PassShopViewController_iPhone.xib */,
+				C177170A1946F68B002D1864 /* PassShopViewController_iPhone5.xib */,
+				C12BCD8B194824B00076E443 /* MerchantPassViewController_iPhone.h */,
+				C12BCD8C194824B00076E443 /* MerchantPassViewController_iPhone.m */,
+				C12BCD8D194824B00076E443 /* MerchantPassViewController_iPhone.xib */,
+				C12BCD90194824D90076E443 /* MerchantPassViewController_iPhone5.xib */,
+			);
+			name = SecondTab;
+			sourceTree = "<group>";
+		};
+		C142E2A519405BD10018480C /* ClassMethods */ = {
+			isa = PBXGroup;
+			children = (
+				C1D64F2B1936FB9B00EFE881 /* GlobalInstances.h */,
+				C1D64F2C1936FB9B00EFE881 /* GlobalInstances.m */,
+				C13D7438194AD9AC005D233C /* OverlayViewController.h */,
+				C13D7439194AD9AC005D233C /* OverlayViewController.m */,
+				C13D743A194AD9AC005D233C /* OverlayView.xib */,
+			);
+			name = ClassMethods;
+			sourceTree = "<group>";
+		};
+		C142E2A619405C490018480C /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				C15B9D9B197CF4EA007004B3 /* LocationCell.h */,
+				C15B9D9C197CF4EA007004B3 /* LocationCell.m */,
+				C15B9D9D197CF4EA007004B3 /* LocationCell.xib */,
+				C18BD784193F4D1F009A3D25 /* ShowPassCustomCell.h */,
+				C18BD785193F4D1F009A3D25 /* ShowPassCustomCell.m */,
+				C18BD786193F4D1F009A3D25 /* ShowPassCustomCell.xib */,
+				C11C113619652ECE00CAF2B9 /* AdminPassCustomCell.h */,
+				C11C113719652ECE00CAF2B9 /* AdminPassCustomCell.m */,
+				C11C113819652ECE00CAF2B9 /* AdminPassCustomCell.xib */,
+				C177170C19471468002D1864 /* AllMerchantCustomCell.h */,
+				C177170D19471468002D1864 /* AllMerchantCustomCell.m */,
+				C177170E19471468002D1864 /* AllMerchantCustomCell.xib */,
+				C177171119471C08002D1864 /* NSDictionary+merchantInfo.h */,
+				C177171219471C08002D1864 /* NSDictionary+merchantInfo.m */,
+				C1A7E7DA19488B6400604AED /* NSDictionary+passesInfo.h */,
+				C1A7E7DB19488B6400604AED /* NSDictionary+passesInfo.m */,
+				C1624A8A195BDE79009BEAB7 /* NSDictionary+userPasses.h */,
+				C1624A8B195BDE79009BEAB7 /* NSDictionary+userPasses.m */,
+				C11C11331965218E00CAF2B9 /* NSDictionary+adminPasses.h */,
+				C11C11341965218E00CAF2B9 /* NSDictionary+adminPasses.m */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		C142E2A719405E2D0018480C /* InfoScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C15BFD09193DBAE20042F4F1 /* InfoViewController_iPhone.h */,
+				C15BFD0A193DBAE20042F4F1 /* InfoViewController_iPhone.m */,
+				C15BFD0B193DBAE20042F4F1 /* InfoViewController_iPhone.xib */,
+				C15BFD0E193DBB140042F4F1 /* InfoViewController_iPhone5.xib */,
+			);
+			name = InfoScreen;
+			sourceTree = "<group>";
+		};
+		C157FB7A19542412003029DF /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C16D392F197FBD0300526F53 /* create_new_pass_white@2x.png */,
+				C11F02C1196FAFE7000671F6 /* add_new_merchant@2x.png */,
+				C15B9DA0197D07A7007004B3 /* add_location2@2x.png */,
+				C10BF2FE196EC82E00C6484E /* done@2x.png */,
+				C1D23701196BD9160025C48E /* New_edit@2x.png */,
+				C10BF2F4196EB0CC00C6484E /* view_passes@2x.png */,
+				C1D23702196BD9160025C48E /* account_sml_screen@2x.png */,
+				C1D23703196BD9160025C48E /* account_screen@2x.png */,
+				C1989020196D6E740063ADAF /* Use_btn@2x.png */,
+				C151DEF71959860700D724AD /* blue_bg@2x.png */,
+				C137BD1D195AA61F00A94DCE /* pass_shop@2x.png */,
+			);
+			name = MainScreen;
+			sourceTree = "<group>";
+		};
+		C15A657419385A41002D7145 /* FontFile */ = {
+			isa = PBXGroup;
+			children = (
+				C15A657519385A5D002D7145 /* Brisko Sans Bold.otf */,
+				C15A657619385A5D002D7145 /* Brisko Sans Bold Italic.otf */,
+			);
+			name = FontFile;
+			sourceTree = "<group>";
+		};
+		C15A657A19387050002D7145 /* CustomPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				C15A657B19387065002D7145 /* StyledPageControl.h */,
+				C15A657C19387065002D7145 /* StyledPageControl.m */,
+			);
+			name = CustomPageControl;
+			sourceTree = "<group>";
+		};
+		C15A6584193873E9002D7145 /* DemoImages */ = {
+			isa = PBXGroup;
+			children = (
+				C14781CF19B88659004656C1 /* frame1@2x.png */,
+			);
+			name = DemoImages;
+			sourceTree = "<group>";
+		};
+		C15B9D87197CF2E5007004B3 /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				C15B9D88197CF302007004B3 /* LocationViewController_iPhone.h */,
+				C15B9D89197CF302007004B3 /* LocationViewController_iPhone.m */,
+				C15B9D8A197CF302007004B3 /* LocationViewController_iPhone.xib */,
+				C15B9D8D197CF31A007004B3 /* LocationViewController_iPhone5.xib */,
+				C15B9D94197CF386007004B3 /* LocationDetailViewController_iPhone.h */,
+				C15B9D95197CF386007004B3 /* LocationDetailViewController_iPhone.m */,
+				C15B9D96197CF386007004B3 /* LocationDetailViewController_iPhone.xib */,
+				C15B9D99197CF3A0007004B3 /* LocationDetailViewController_iPhone5.xib */,
+			);
+			name = Locations;
+			sourceTree = "<group>";
+		};
+		C19A244C197511830076DF39 /* Merchant Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C19A24511975179E0076DF39 /* Double_lightOrange@2x.png */,
+				C19A24521975179E0076DF39 /* Double_darkOrange@2x.png */,
+				C15B9DA9197D54E7007004B3 /* white_active@2x.png */,
+				C15B9DAB197D54FC007004B3 /* pink_active@2x.png */,
+				C19A244F197511A50076DF39 /* lightOrange@2x.png */,
+				C19A244D197511920076DF39 /* darkOrange@2x.png */,
+				C1DA51941976ADFB001F3938 /* add_new_pass@2x.png */,
+			);
+			name = "Merchant Detail";
+			sourceTree = "<group>";
+		};
+		C19A661F195804310060143F /* FeedBack Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C19A663419580D2D0060143F /* submit_bttn@2x.png */,
+				C19A6636195817190060143F /* feedback_bg_iPhone@2x.png */,
+				C17A198A19B7518A0024D88E /* feedback_bg_iPhone5@2x.png */,
+				C19A6620195804420060143F /* fedback_active@2x.png */,
+				C19A6621195804420060143F /* feed_back_icon1@2x.png */,
+				C19A662E1958094D0060143F /* feedback_divider@2x.png */,
+				C19A6622195804420060143F /* feed_back_icon2@2x.png */,
+				C19A6623195804420060143F /* feed_back_icon3@2x.png */,
+				C19A6624195804420060143F /* feed_back_icon4@2x.png */,
+				C19A6625195804420060143F /* feed_back_icon5@2x.png */,
+				C19A6626195804420060143F /* feedback_blue@2x.png */,
+			);
+			name = "FeedBack Screen";
+			sourceTree = "<group>";
+		};
+		C1D4FECB19419F7F0050075E /* ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				C1D4FF0C1941B3910050075E /* XMLReader.h */,
+				C1D4FF0D1941B3910050075E /* XMLReader.m */,
+				C1D4FECC19419FA30050075E /* ASIAuthenticationDialog.h */,
+				C1D4FECD19419FA30050075E /* ASIAuthenticationDialog.m */,
+				C1D4FECE19419FA30050075E /* ASICacheDelegate.h */,
+				C1D4FECF19419FA30050075E /* ASIDataCompressor.h */,
+				C1D4FED019419FA30050075E /* ASIDataCompressor.m */,
+				C1D4FED119419FA30050075E /* ASIDataDecompressor.h */,
+				C1D4FED219419FA30050075E /* ASIDataDecompressor.m */,
+				C1D4FED319419FA30050075E /* ASIDownloadCache.h */,
+				C1D4FED419419FA30050075E /* ASIDownloadCache.m */,
+				C1D4FED519419FA30050075E /* ASIFormDataRequest.h */,
+				C1D4FED619419FA30050075E /* ASIFormDataRequest.m */,
+				C1D4FED719419FA30050075E /* ASIHTTPRequest.h */,
+				C1D4FED819419FA30050075E /* ASIHTTPRequest.m */,
+				C1D4FED919419FA30050075E /* ASIHTTPRequestConfig.h */,
+				C1D4FEDA19419FA30050075E /* ASIHTTPRequestDelegate.h */,
+				C1D4FEDB19419FA30050075E /* ASIInputStream.h */,
+				C1D4FEDC19419FA30050075E /* ASIInputStream.m */,
+				C1D4FEDD19419FA30050075E /* ASINetworkQueue.h */,
+				C1D4FEDE19419FA30050075E /* ASINetworkQueue.m */,
+				C1D4FEDF19419FA30050075E /* ASIProgressDelegate.h */,
+			);
+			name = ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		C1D4FEE819419FAB0050075E /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				C1D4FEE919419FC90050075E /* JSON.h */,
+				C1D4FEEA19419FC90050075E /* NSObject+SBJSON.h */,
+				C1D4FEEB19419FC90050075E /* NSObject+SBJSON.m */,
+				C1D4FEEC19419FC90050075E /* NSString+SBJSON.h */,
+				C1D4FEED19419FC90050075E /* NSString+SBJSON.m */,
+				C1D4FEEE19419FC90050075E /* SBJSON.h */,
+				C1D4FEEF19419FC90050075E /* SBJSON.m */,
+				C1D4FEF019419FC90050075E /* SBJsonBase.h */,
+				C1D4FEF119419FC90050075E /* SBJsonBase.m */,
+				C1D4FEF219419FC90050075E /* SBJsonParser.h */,
+				C1D4FEF319419FC90050075E /* SBJsonParser.m */,
+				C1D4FEF419419FC90050075E /* SBJsonWriter.h */,
+				C1D4FEF519419FC90050075E /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		C1D4FF021941AA6D0050075E /* Reachibility */ = {
+			isa = PBXGroup;
+			children = (
+				C12CE9DA1977D6D300DA5094 /* NSDataAdditions.h */,
+				C12CE9D91977D6D300DA5094 /* NSDataAdditions.m */,
+				C1D4FEFF1941AA620050075E /* Reachability.h */,
+				C1D4FF001941AA620050075E /* Reachability.m */,
+			);
+			name = Reachibility;
+			sourceTree = "<group>";
+		};
 		C1D64EE51936F81B00EFE881 = {
 			isa = PBXGroup;
 			children = (
+				C16473F419EC0ABC00AF6592 /* Pass_icon_180.png */,
+				C16473EA19EC0AB100AF6592 /* 29.png */,
+				C16473EB19EC0AB100AF6592 /* 58.png */,
+				C16473EC19EC0AB100AF6592 /* 80.png */,
+				C16473ED19EC0AB100AF6592 /* 114.png */,
+				C16473EE19EC0AB100AF6592 /* 120.png */,
+				C14B861119EBFAA000614E10 /* info_5@2x.png */,
+				C14B860F19EBFA1C00614E10 /* info_4@2x.png */,
+				C1A6310019D1A2AB00A89CD8 /* SDWebImage.framework */,
 				C1D64EF71936F81B00EFE881 /* ChoosePass */,
 				C1D64F161936F81B00EFE881 /* ChoosePassTests */,
 				C1D64EF01936F81B00EFE881 /* Frameworks */,
@@ -92,7 +840,7 @@
 		C1D64EEF1936F81B00EFE881 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1D64EEE1936F81B00EFE881 /* ChoosePass.app */,
+				C1D64EEE1936F81B00EFE881 /* Merchant Section.app */,
 				C1D64F0F1936F81B00EFE881 /* ChoosePassTests.xctest */,
 			);
 			name = Products;
@@ -101,10 +849,26 @@
 		C1D64EF01936F81B00EFE881 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C137BD4C195AF0B500A94DCE /* CoreLocation.framework */,
+				C137BD4A195AF0A400A94DCE /* SystemConfiguration.framework */,
+				C137BD48195AF09600A94DCE /* AudioToolbox.framework */,
+				C137BD46195AF08A00A94DCE /* OpenGLES.framework */,
+				C137BD44195AF08300A94DCE /* QuartzCore.framework */,
+				C137BD42195AF07600A94DCE /* Security.framework */,
+				C137BD40195AF06A00A94DCE /* AVFoundation.framework */,
+				C137BD3E195AF05D00A94DCE /* CoreMedia.framework */,
+				C137BD3C195AF04F00A94DCE /* libxml2.dylib */,
+				C137BD3A195AF03500A94DCE /* MobileCoreServices.framework */,
+				C137BD38195AF02200A94DCE /* CoreAudio.framework */,
+				C137BD36195AF01B00A94DCE /* MessageUI.framework */,
+				C137BD34195AF00A00A94DCE /* libc++abi.dylib */,
+				C1A7E7D51948714F00604AED /* MapKit.framework */,
+				C12BCD8619481F9D0076E443 /* ImageIO.framework */,
+				C1D4FF031941AAC10050075E /* libz.dylib */,
+				C15A65901938A2FC002D7145 /* FacebookSDK.framework */,
 				C1D64EF11936F81B00EFE881 /* Foundation.framework */,
 				C1D64EF31936F81B00EFE881 /* CoreGraphics.framework */,
 				C1D64EF51936F81B00EFE881 /* UIKit.framework */,
-				C1D64F101936F81B00EFE881 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,12 +876,29 @@
 		C1D64EF71936F81B00EFE881 /* ChoosePass */ = {
 			isa = PBXGroup;
 			children = (
+				C1D4FF021941AA6D0050075E /* Reachibility */,
+				C1D4FEE819419FAB0050075E /* JSON */,
+				C1D4FECB19419F7F0050075E /* ASIHTTPRequest */,
+				C15A657A19387050002D7145 /* CustomPageControl */,
+				C142E2A519405BD10018480C /* ClassMethods */,
+				C142E2A619405C490018480C /* CustomCell */,
+				C142E2A719405E2D0018480C /* InfoScreen */,
+				C142E2A219405B670018480C /* FirstTab */,
+				C142E2A319405B710018480C /* SecondTab */,
 				C1D64F001936F81B00EFE881 /* AppDelegate.h */,
 				C1D64F011936F81B00EFE881 /* AppDelegate.m */,
-				C1D64F031936F81B00EFE881 /* Main.storyboard */,
-				C1D64F061936F81B00EFE881 /* ViewController.h */,
-				C1D64F071936F81B00EFE881 /* ViewController.m */,
-				C1D64F091936F81B00EFE881 /* Images.xcassets */,
+				C12BE10E19824CC200709351 /* CreateNewPassesView.h */,
+				C12BE10F19824CC200709351 /* CreateNewPassesView.m */,
+				C12BE11019824CC200709351 /* CreateNewPassesView.xib */,
+				C12BE11119824CC200709351 /* CreateNewPassesView4.xib */,
+				C1D64F35193722FF00EFE881 /* LoginViewController_iPhone.h */,
+				C1D64F36193722FF00EFE881 /* LoginViewController_iPhone.m */,
+				C1D64F37193722FF00EFE881 /* LoginViewController_iPhone.xib */,
+				C1D64F3A1937232200EFE881 /* LoginViewController_iPhone5.xib */,
+				C1D64F2E1937023200EFE881 /* MainViewController_iPhone.h */,
+				C1D64F2F1937023200EFE881 /* MainViewController_iPhone.m */,
+				C1D64F301937023200EFE881 /* MainViewController_iPhone.xib */,
+				C1D64F331937024F00EFE881 /* MainViewController_iPhone5.xib */,
 				C1D64EF81936F81B00EFE881 /* Supporting Files */,
 			);
 			path = ChoosePass;
@@ -126,6 +907,18 @@
 		C1D64EF81936F81B00EFE881 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C11DA9C1197E2EEB00C3FC1F /* Payout Design */,
+				C19A244C197511830076DF39 /* Merchant Detail */,
+				C137BD1F195AAB9700A94DCE /* Account Screen */,
+				C19A661F195804310060143F /* FeedBack Screen */,
+				99F052801956EFE200FF6011 /* PassDetail */,
+				C157FB7A19542412003029DF /* MainScreen */,
+				C1246D7F19530C8C00207CF9 /* LoginScreen */,
+				C1246D721952FE3700207CF9 /* Info Screen */,
+				C1246D651952C72B00207CF9 /* AppImages */,
+				C15A6584193873E9002D7145 /* DemoImages */,
+				C15A657419385A41002D7145 /* FontFile */,
+				C1D64F091936F81B00EFE881 /* Images.xcassets */,
 				C1D64EF91936F81B00EFE881 /* ChoosePass-Info.plist */,
 				C1D64EFA1936F81B00EFE881 /* InfoPlist.strings */,
 				C1D64EFD1936F81B00EFE881 /* main.m */,
@@ -169,7 +962,7 @@
 			);
 			name = ChoosePass;
 			productName = ChoosePass;
-			productReference = C1D64EEE1936F81B00EFE881 /* ChoosePass.app */;
+			productReference = C1D64EEE1936F81B00EFE881 /* Merchant Section.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C1D64F0E1936F81B00EFE881 /* ChoosePassTests */ = {
@@ -228,9 +1021,117 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C15B9D8E197CF31A007004B3 /* LocationViewController_iPhone5.xib in Resources */,
+				C19A6638195817190060143F /* feedback_bg_iPhone@2x.png in Resources */,
+				C1989021196D6E740063ADAF /* Use_btn@2x.png in Resources */,
+				C1D23706196BD9160025C48E /* account_screen@2x.png in Resources */,
+				C19A2450197511A50076DF39 /* lightOrange@2x.png in Resources */,
+				C157FB62195407B1003029DF /* backButton@2x.png in Resources */,
+				C16473F019EC0AB100AF6592 /* 58.png in Resources */,
+				C16473EF19EC0AB100AF6592 /* 29.png in Resources */,
+				C19A662D195804420060143F /* feedback_blue@2x.png in Resources */,
+				C18E0F19196A812500BEE72A /* view_bttn@2x.png in Resources */,
+				C1CD25B919AE017600967762 /* SignUp@2x.png in Resources */,
+				C16473F219EC0AB100AF6592 /* 114.png in Resources */,
+				C18E0F38196AC8CB00BEE72A /* check@2x.png in Resources */,
+				C19A6628195804420060143F /* feed_back_icon1@2x.png in Resources */,
+				C19A244E197511920076DF39 /* darkOrange@2x.png in Resources */,
+				C19A663519580D2D0060143F /* submit_bttn@2x.png in Resources */,
+				C1D236FE196BD80F0025C48E /* MerchantAccountViewController_iPhone.xib in Resources */,
+				C1B2C1C41954405F007C60EB /* signInBabckground_iPhone@2x.png in Resources */,
+				C1DA518F19766F16001F3938 /* EditMerchantViewController_iPhone.xib in Resources */,
+				C1DA51931976AC7B001F3938 /* save_white@2x.png in Resources */,
+				C1246D8519530CD100207CF9 /* email_bg@2x.png in Resources */,
+				C13D743C194AD9AC005D233C /* OverlayView.xib in Resources */,
+				C157FB5A1953FB4B003029DF /* infoBackground_iPhone5@2x.png in Resources */,
+				C157FB75195411C5003029DF /* Input_box@2x.png in Resources */,
+				C15CE8B11988E0FD00669609 /* requestNewPass@2x.png in Resources */,
+				C1989013196D2B660063ADAF /* delete@2x.png in Resources */,
+				C11F02C2196FAFE7000671F6 /* add_new_merchant@2x.png in Resources */,
+				C11DA9C7197E46D400C3FC1F /* contact_payout@2x.png in Resources */,
+				C15B9D98197CF386007004B3 /* LocationDetailViewController_iPhone.xib in Resources */,
+				C1A9F593195D9A1600F69DE9 /* MyPassesViewController_iPhone.xib in Resources */,
+				C1D23700196BD83B0025C48E /* MerchantAccountViewController_iPhone5.xib in Resources */,
+				C1246D711952F8F400207CF9 /* background@2x.png in Resources */,
+				C198901A196D2D740063ADAF /* signIn_Button@2x.png in Resources */,
+				C142E2AC19405EAB0018480C /* FeedBackViewController_iPhone.xib in Resources */,
+				C11DA9C0197E2DB300C3FC1F /* PayoutViewController_iPhone5.xib in Resources */,
+				C15B9D9A197CF3A0007004B3 /* LocationDetailViewController_iPhone5.xib in Resources */,
+				C12BCD91194824D90076E443 /* MerchantPassViewController_iPhone5.xib in Resources */,
+				C157FB60195405FF003029DF /* topHeader_bg@2x.png in Resources */,
+				C10BF2FB196EBE6100C6484E /* Feed_back@2x.png in Resources */,
+				C1D64F321937023200EFE881 /* MainViewController_iPhone.xib in Resources */,
+				C11C113A19652ECE00CAF2B9 /* AdminPassCustomCell.xib in Resources */,
+				C1D23705196BD9160025C48E /* account_sml_screen@2x.png in Resources */,
+				C15B9DAA197D54E7007004B3 /* white_active@2x.png in Resources */,
+				C1D23708196BDCDF0025C48E /* save@2x.png in Resources */,
+				C177170B1946F68B002D1864 /* PassShopViewController_iPhone5.xib in Resources */,
+				C142E2AE19405EE50018480C /* FeedBackViewController_iPhone5.xib in Resources */,
+				C1246D7E19530BCA00207CF9 /* enableDot@2x.png in Resources */,
+				C19A24531975179E0076DF39 /* Double_lightOrange@2x.png in Resources */,
+				C19A6629195804420060143F /* feed_back_icon2@2x.png in Resources */,
+				99F052841956F4C900FF6011 /* Pass_detailsIcon@2x.png in Resources */,
+				C19A662B195804420060143F /* feed_back_icon4@2x.png in Resources */,
+				C19A662C195804420060143F /* feed_back_icon5@2x.png in Resources */,
+				C1D23704196BD9160025C48E /* New_edit@2x.png in Resources */,
+				C157FB7119541175003029DF /* Email_icon@2x.png in Resources */,
+				C12BCD8F194824B00076E443 /* MerchantPassViewController_iPhone.xib in Resources */,
+				C15B9DAC197D54FC007004B3 /* pink_active@2x.png in Resources */,
+				C1B050DB19BF20BC00061C06 /* payout_info_bg@2x.png in Resources */,
+				C19A6627195804420060143F /* fedback_active@2x.png in Resources */,
+				C137BD1B195AA48C00A94DCE /* account_bg_iPhone5@2x.png in Resources */,
+				C177171019471468002D1864 /* AllMerchantCustomCell.xib in Resources */,
+				C16473F519EC0ABC00AF6592 /* Pass_icon_180.png in Resources */,
+				C15A657719385A5D002D7145 /* Brisko Sans Bold.otf in Resources */,
+				C15B9DA1197D07A7007004B3 /* add_location2@2x.png in Resources */,
+				C16D3930197FBD0300526F53 /* create_new_pass_white@2x.png in Resources */,
+				C15A657819385A5D002D7145 /* Brisko Sans Bold Italic.otf in Resources */,
+				C19A24541975179E0076DF39 /* Double_darkOrange@2x.png in Resources */,
+				C157FB651954102B003029DF /* signInBabckground_iPhone5@2x.png in Resources */,
+				C1D2370C196C255A0025C48E /* edit_admin@2x.png in Resources */,
+				C16473F319EC0AB100AF6592 /* 120.png in Resources */,
+				C18BD77B193F433C009A3D25 /* UsePassViewController_iPhone.xib in Resources */,
+				C11DA9BE197E2D9B00C3FC1F /* PayoutViewController_iPhone.xib in Resources */,
+				C18BD788193F4D1F009A3D25 /* ShowPassCustomCell.xib in Resources */,
+				C16473F119EC0AB100AF6592 /* 80.png in Resources */,
+				C157FB7319541178003029DF /* Password_icon@2x.png in Resources */,
+				C12BE11319824CC200709351 /* CreateNewPassesView.xib in Resources */,
+				C15BFD0D193DBAE20042F4F1 /* InfoViewController_iPhone.xib in Resources */,
+				C137BD1E195AA61F00A94DCE /* pass_shop@2x.png in Resources */,
+				C118C5C41978F6B8001D9435 /* NotesViewController_iPhone.xib in Resources */,
+				C10BF2F5196EB0CC00C6484E /* view_passes@2x.png in Resources */,
+				C19A662F1958094D0060143F /* feedback_divider@2x.png in Resources */,
 				C1D64F0A1936F81B00EFE881 /* Images.xcassets in Resources */,
+				C1DA519119766F37001F3938 /* EditMerchantViewController_iPhone5.xib in Resources */,
+				C14B861219EBFAA000614E10 /* info_5@2x.png in Resources */,
+				C1246D7D19530BCA00207CF9 /* disableDot@2x.png in Resources */,
+				C11DA9C5197E2EF600C3FC1F /* sml_scree_pay_info@2x.png in Resources */,
+				C18E0F1A196A812500BEE72A /* edit_bttn@2x.png in Resources */,
+				C157FB581953FB42003029DF /* infoBackground_iPhone@2x.png in Resources */,
+				C1D64F341937024F00EFE881 /* MainViewController_iPhone5.xib in Resources */,
+				C17717091946F646002D1864 /* PassShopViewController_iPhone.xib in Resources */,
+				C15B9D8C197CF302007004B3 /* LocationViewController_iPhone.xib in Resources */,
+				C14781D019B88659004656C1 /* frame1@2x.png in Resources */,
+				C1D64F3B1937232200EFE881 /* LoginViewController_iPhone5.xib in Resources */,
+				C1DA51951976ADFB001F3938 /* add_new_pass@2x.png in Resources */,
 				C1D64EFC1936F81B00EFE881 /* InfoPlist.strings in Resources */,
-				C1D64F051936F81B00EFE881 /* Main.storyboard in Resources */,
+				C1D64F39193722FF00EFE881 /* LoginViewController_iPhone.xib in Resources */,
+				C10BF2FF196EC82E00C6484E /* done@2x.png in Resources */,
+				C18E0F26196ABDB800BEE72A /* signInaccount@2x.png in Resources */,
+				C19A662A195804420060143F /* feed_back_icon3@2x.png in Resources */,
+				C137BD1C195AA48C00A94DCE /* account_bg_iPhone@2x.png in Resources */,
+				C18E0F36196AC8BE00BEE72A /* uncheck@2x.png in Resources */,
+				C12BE11419824CC200709351 /* CreateNewPassesView4.xib in Resources */,
+				C15B9D9F197CF4EA007004B3 /* LocationCell.xib in Resources */,
+				C118C5C61978F6F0001D9435 /* NotesViewController_iPhone5.xib in Resources */,
+				C18BD77D193F435B009A3D25 /* UsePassViewController_iPhone5.xib in Resources */,
+				C14B861019EBFA1C00614E10 /* info_4@2x.png in Resources */,
+				C17717041946F09B002D1864 /* SecondViewController_iPhone.xib in Resources */,
+				C17A198B19B7518A0024D88E /* feedback_bg_iPhone5@2x.png in Resources */,
+				C1246D6B1952F43400207CF9 /* topInfoImage@2x.png in Resources */,
+				C15BFD0F193DBB140042F4F1 /* InfoViewController_iPhone5.xib in Resources */,
+				C151DEF81959860700D724AD /* blue_bg@2x.png in Resources */,
+				C1A9F595195D9A3600F69DE9 /* MyPassesViewController_iPhone5.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +1150,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1D64F081936F81B00EFE881 /* ViewController.m in Sources */,
+				C1D4FF081941AD880050075E /* main.m in Sources */,
+				C1D4FF051941AD310050075E /* ASIAuthenticationDialog.m in Sources */,
+				C1D4FEF819419FC90050075E /* SBJSON.m in Sources */,
+				C1DA518E19766F16001F3938 /* EditMerchantViewController_iPhone.m in Sources */,
+				C1D4FEFB19419FC90050075E /* SBJsonWriter.m in Sources */,
+				C142E2AB19405EAB0018480C /* FeedBackViewController_iPhone.m in Sources */,
+				C1624A8C195BDE79009BEAB7 /* NSDictionary+userPasses.m in Sources */,
+				C1D4FEE319419FA30050075E /* ASIDownloadCache.m in Sources */,
+				C177170F19471468002D1864 /* AllMerchantCustomCell.m in Sources */,
+				C15B9D9E197CF4EA007004B3 /* LocationCell.m in Sources */,
+				C1D64F38193722FF00EFE881 /* LoginViewController_iPhone.m in Sources */,
+				C11DA9BD197E2D9B00C3FC1F /* PayoutViewController_iPhone.m in Sources */,
+				C18BD787193F4D1F009A3D25 /* ShowPassCustomCell.m in Sources */,
+				C1D4FEE519419FA30050075E /* ASIHTTPRequest.m in Sources */,
+				C18BD77A193F433C009A3D25 /* UsePassViewController_iPhone.m in Sources */,
+				C11C11351965218E00CAF2B9 /* NSDictionary+adminPasses.m in Sources */,
+				C118C5C31978F6B8001D9435 /* NotesViewController_iPhone.m in Sources */,
+				C17717081946F646002D1864 /* PassShopViewController_iPhone.m in Sources */,
+				C1D236FD196BD80F0025C48E /* MerchantAccountViewController_iPhone.m in Sources */,
+				C1D4FF011941AA620050075E /* Reachability.m in Sources */,
+				C1D4FEE719419FA30050075E /* ASINetworkQueue.m in Sources */,
+				C1D4FEE419419FA30050075E /* ASIFormDataRequest.m in Sources */,
+				C1A7E7DC19488B6400604AED /* NSDictionary+passesInfo.m in Sources */,
+				C1D4FEF719419FC90050075E /* NSString+SBJSON.m in Sources */,
+				C12CE9DB1977D6D300DA5094 /* NSDataAdditions.m in Sources */,
+				C15B9D97197CF386007004B3 /* LocationDetailViewController_iPhone.m in Sources */,
+				C1D4FEF619419FC90050075E /* NSObject+SBJSON.m in Sources */,
+				C1D4FEE219419FA30050075E /* ASIDataDecompressor.m in Sources */,
+				C1D64F311937023200EFE881 /* MainViewController_iPhone.m in Sources */,
+				C17717031946F09B002D1864 /* SecondViewController_iPhone.m in Sources */,
+				C15BFD0C193DBAE20042F4F1 /* InfoViewController_iPhone.m in Sources */,
+				C1D4FEF919419FC90050075E /* SBJsonBase.m in Sources */,
+				C1D4FEE619419FA30050075E /* ASIInputStream.m in Sources */,
+				C177171319471C08002D1864 /* NSDictionary+merchantInfo.m in Sources */,
+				C12BCD8E194824B00076E443 /* MerchantPassViewController_iPhone.m in Sources */,
+				C15B9D8B197CF302007004B3 /* LocationViewController_iPhone.m in Sources */,
 				C1D64F021936F81B00EFE881 /* AppDelegate.m in Sources */,
-				C1D64EFE1936F81B00EFE881 /* main.m in Sources */,
+				C1D64F2D1936FB9B00EFE881 /* GlobalInstances.m in Sources */,
+				C11C113919652ECE00CAF2B9 /* AdminPassCustomCell.m in Sources */,
+				C1D4FF0E1941B3910050075E /* XMLReader.m in Sources */,
+				C13D743B194AD9AC005D233C /* OverlayViewController.m in Sources */,
+				C1D4FEFA19419FC90050075E /* SBJsonParser.m in Sources */,
+				C12BE11219824CC200709351 /* CreateNewPassesView.m in Sources */,
+				C1A9F592195D9A1600F69DE9 /* MyPassesViewController_iPhone.m in Sources */,
+				C1D4FEE119419FA30050075E /* ASIDataCompressor.m in Sources */,
+				C15A657D19387065002D7145 /* StyledPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,14 +1226,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		C1D64F031936F81B00EFE881 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1D64F041936F81B00EFE881 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C1D64F191936F81B00EFE881 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -317,7 +1253,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Amit Gupta (88M58RV78E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Amit Gupta (88M58RV78E)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -335,6 +1272,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "2ffc48b1-3434-4e32-894e-d1e800a547f9";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -355,7 +1293,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Amit Gupta (88M58RV78E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Amit Gupta (88M58RV78E)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -366,6 +1305,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "2ffc48b1-3434-4e32-894e-d1e800a547f9";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -376,10 +1316,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Amit Gupta (88M58RV78E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Amit Gupta (88M58RV78E)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChoosePass/ChoosePass-Prefix.pch";
 				INFOPLIST_FILE = "ChoosePass/ChoosePass-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChoosePass",
+				);
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "Merchant Section";
+				PROVISIONING_PROFILE = "2ffc48b1-3434-4e32-894e-d1e800a547f9";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +1347,28 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Amit Gupta (88M58RV78E)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Amit Gupta (88M58RV78E)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChoosePass/ChoosePass-Prefix.pch";
 				INFOPLIST_FILE = "ChoosePass/ChoosePass-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChoosePass",
+				);
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "Merchant Section";
+				PROVISIONING_PROFILE = "2ffc48b1-3434-4e32-894e-d1e800a547f9";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +1432,7 @@
 				C1D64F221936F81B00EFE881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1D64F231936F81B00EFE881 /* Build configuration list for PBXNativeTarget "ChoosePassTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +1441,7 @@
 				C1D64F251936F81B00EFE881 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
